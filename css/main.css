@@ -1,14 +1,16 @@
 body{
-  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  background-image: url(https://cdn.ticbeat.com/src/uploads/2019/02/ventanilla-avion.jpg);
+  background-size: 1200px;
   font-family: 'Ubuntu', sans-serif;
   color:white;
-  font-size: 22px;
+  font-size: 22px
 }
 
 h1 {
-  color: white;
-  text-align: center;
-  font-size: 30px;
+  h1 {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+  }
 }
 
 p {
@@ -32,8 +34,6 @@ h2 {
     background-color: #4a465e;
     font-size: 20px;
     color: #FFFFFF;
-    animation-play-state: running;
-
 }
 
 #container{

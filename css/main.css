@@ -165,8 +165,8 @@ width: 100%;
 #container .maleta1{
   padding: 9px;
   border-radius: 5px;
-  grid-column: 5/6;
-  grid-row: 3/4;
+  grid-column: 3/1;
+  grid-row: 4/2;
 }
 
 #container .maleta1 img{
@@ -177,8 +177,8 @@ width: 100%;
 #container .maleta2{
   padding: 9px;
   border-radius: 5px;
-  grid-column: 5/6;
-  grid-row: 3/4;
+  grid-column: 6/4;
+  grid-row: 2/4;
 }
 
 #container .maleta2 img{
@@ -189,8 +189,8 @@ width: 100%;
 #container .maleta3{
   padding: 9px;
   border-radius: 5px;
-  grid-column: 5/6;
-  grid-row: 3/4;
+  grid-column: 3/1;
+  grid-row: 4/5;
 }
 
 #container .maleta3 img{
@@ -201,8 +201,8 @@ width: 100%;
 #container .maleta4{
   padding: 9px;
   border-radius: 5px;
-  grid-column: 5/6;
-  grid-row: 3/4;
+  grid-column: 4/6;
+  grid-row: 4/5;
 }
 
 #container .maleta4 img{

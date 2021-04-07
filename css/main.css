@@ -1,17 +1,15 @@
 body{
-  background-image: url(https://cdn.ticbeat.com/src/uploads/2019/02/ventanilla-avion.jpg);
-  background-size: 1200px;
+  background-image: url(https://image.freepik.com/foto-gratis/cielo-atardecer-ventana-avion_117856-416.jpg);
+  background-size: cover;
   font-family: 'Ubuntu', sans-serif;
   color:white;
   font-size: 22px
 }
 
-h1 {
-  h1 {
+h1{
     color: white;
     text-shadow: 2px 2px 4px #000000;
   }
-}
 
 p {
   font-family: arial;

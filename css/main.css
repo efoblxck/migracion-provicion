@@ -39,11 +39,11 @@ img {
   grid-row-gap: 10px;
 }
 
-#container .celda1{
+#container .logo{
   padding: 30px;
   border-radius: 5px;
   border: 2px solid black;
-  grid-column: 3/4;
+  grid-column: 1/2;
   grid-row: 1/2;
 }
 

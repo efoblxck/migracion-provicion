@@ -1,20 +1,20 @@
-body{
+body {
   background-image: url(../img/abyom.jpg);
   background-size: cover;
   font-family: 'Ubuntu', sans-serif;
-  color:white;
+  color: white;
   font-size: 22px
 }
 
-h1{
-    color: white;
-    text-shadow: 2px 2px 4px #000000;
-  }
+h1 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
 
 p {
   font-family: arial;
   font-size: 25px;
-  color:#FFFFFF;
+  color: #FFFFFF;
 }
 
 h2 {
@@ -23,26 +23,25 @@ h2 {
   font-size: 27px;
 }
 
-
 #header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    padding: 10px 10px;
-    background-color: #4a465e;
-    font-size: 20px;
-    color: #FFFFFF;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px 10px;
+  background-color: #4a465e;
+  font-size: 20px;
+  color: #FFFFFF;
 }
 
-#container{
-  display:grid;
+#container {
+  display: grid;
   grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
   grid-template-rows: calc(15vh - 10px) calc(10vh - 10px) calc(20vh - 10px) calc(35vh - 10px) calc(15vh - 10px);
   grid-column-gap: 10px;
   grid-row-gap: 10px;
 }
 
-#container .logo{
+#container .logo {
   padding: 30px;
   border-radius: 5px;
   border: 2px solid black;
@@ -50,55 +49,57 @@ h2 {
   grid-row: 1/2;
 }
 
-#container .bigfoto{
+#container .bigfoto {
   padding: 9px;
   border-radius: 5px;
   grid-column: 3/4;
   grid-row: 4/5;
 }
-#container .bigfoto img{
-height: 100%;
-width: 100%;
+
+#container .bigfoto img {
+  height: 100%;
+  width: 100%;
 }
 
-#container .f{
+#container .f {
   padding: 9px;
   border-radius: 5px;
   grid-column: 2/3;
   grid-row: 4/5;
 }
-#container .f img{
-height: 100%;
-width: 100%;
+
+#container .f img {
+  height: 100%;
+  width: 100%;
 }
 
-#container .a{
+#container .a {
   padding: 9px;
   border-radius: 5px;
   grid-column: 5/6;
   grid-row: 3/4;
 }
 
-#container .a{
-grid-column: 5/6;  
-grid-row: 3/4;
-height: 100%;
-width: 100%;
+#container .a {
+  grid-column: 5/6;
+  grid-row: 3/4;
+  height: 100%;
+  width: 100%;
 }
 
-#container .titulo{
+#container .titulo {
   grid-column: 3/4;
   grid-row: 2/3;
 }
 
-#container .texto{
+#container .texto {
   padding: 9px;
   border-r<s</s>adius: 5px;
   grid-column: 2/5;
   grid-row: 3/4;
 }
 
-#container .copy{
+#container .copy {
   padding: 30px;
   border-radius: 5px;
   border: 2px solid black;
@@ -106,15 +107,14 @@ width: 100%;
   grid-row: 5/6;
 }
 
-
-#container .nav{
+#container .nav {
   padding: 9px;
   border-radius: 5px;
   grid-column: 5/6;
   grid-row: 5/6;
 }
 
-#container .basic{
+#container .basic {
   padding: 30px;
   border-radius: 5px;
   border: 2px solid black;
@@ -122,14 +122,14 @@ width: 100%;
   grid-row: 1/2;
 }
 
-#container .medio{
+#container .medio {
   padding: 9px;
   border-radius: 5px;
   grid-column: 1/6;
   grid-row: 2/3;
 }
 
-#container .tit{
+#container .tit {
   padding: 9px;
   border-radius: 5px;
   border: 2px solid black;
@@ -137,75 +137,76 @@ width: 100%;
   grid-row: 3/4;
 }
 
-#container .celda9{
+#container .celda9 {
   padding: 9px;
   border-radius: 5px;
   grid-column: 1/6;
   grid-row: 4/5;
 }
 
-#container .ultimo{
+#container .ultimo {
   padding: 9px;
   border-radius: 5px;
   grid-column: 3/4;
   grid-row: 5/6;
 }
 
-#container .info{
+#container .info {
   padding: 9px;
   border-radius: 5px;
   grid-column: 1/2;
   grid-row: 5/6;
 }
-#container .info img{
-height: 100%;
-width: 100%;
+
+#container .info img {
+  height: 100%;
+  width: 100%;
 }
 
-#container .maleta1{
+#container .maleta1 {
   padding: 9px;
   border-radius: 5px;
   grid-column: 3/1;
   grid-row: 4/2;
 }
 
-#container .maleta1 img{
-height: 100%;
-width: 100%;
+#container .maleta1 img {
+  height: 100%;
+  width: 100%;
 }
 
-#container .maleta2{
+#container .maleta2 {
   padding: 9px;
   border-radius: 5px;
   grid-column: 6/4;
   grid-row: 2/4;
 }
 
-#container .maleta2 img{
-height: 100%;
-width: 100%;
+#container .maleta2 img {
+  height: 100%;
+  width: 100%;
 }
 
-#container .maleta3{
+#container .maleta3 {
   padding: 9px;
   border-radius: 5px;
   grid-column: 3/1;
   grid-row: 4/5;
 }
 
-#container .maleta3 img{
-height: 100%;
-width: 100%;
+#container .maleta3 img {
+  height: 100%;
+  width: 100%;
 }
 
-#container .maleta4{
+#container .maleta4 {
   padding: 9px;
   border-radius: 5px;
   grid-column: 4/6;
   grid-row: 4/5;
 }
 
-#container .maleta4 img{
-height: 100%;
-width: 100%;
+#container .maleta4 img {
+  height: 100%;
+  width: 100%;
 }

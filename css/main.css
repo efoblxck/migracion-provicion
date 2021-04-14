@@ -1,5 +1,4 @@
-body {
-<<<<<<< HEAD
+body{
   background-color: #a8a8a8;
   margin: 0;
   overflow-x: hidden;
@@ -32,31 +31,23 @@ body {
     80% { transform: translate(-15%,0) }
     90% { transform: translate(10%,5%) }
     100% { transform: translate(5%,0) }
-=======
-  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
-  background-size: cover;
-  font-family: 'Ubuntu', sans-serif;
-  color: white;
-  font-size: 22px
->>>>>>> 099cb76efb95fb2b2cec1a1c852c54e76017239a
 }
 
-h1 {
+h1{
   font-size: 20px;
   color: white;
   text-shadow: 2px 2px 4px #000000;
 }
 
-p {
+p{
   font-family: arial;
   font-size: 25px;
   color: #FFFFFF;
 }
 
-h2 {
+h2{
   color: white;
-  text-align: center;
-  font-size: 27px;
+  font-size: 20px;
 }
 
 #header {
@@ -109,30 +100,18 @@ h2 {
   width: 100%;
 }
 
-<<<<<<< HEAD
-#container .avion {
-  padding: 1px;
-  border-radius: 1px;
-=======
-#container .av {
+#container .av{
   padding: 9px;
   border-radius: 5px;
->>>>>>> 099cb76efb95fb2b2cec1a1c852c54e76017239a
-  grid-column: 5/6;
-  grid-row: 3/4;
+  grid-column: 3/4;
+  grid-row: 5/6;
 }
 
-<<<<<<< HEAD
-#container .avion img {
-  height: 10%;
-  width: 10%;
-=======
-#container .av img {
+#container .av img{
   grid-column: 3/4;
   grid-row: 5/6;
   height: 100%;
   width: 100%;
->>>>>>> 099cb76efb95fb2b2cec1a1c852c54e76017239a
 }
 
 #container .titulo {
@@ -255,18 +234,6 @@ h2 {
 }
 
 #container .maleta4 img {
-  height: 100%;
-  width: 100%;
-}
-
-#container .avion {
-  padding: 9px;
-  border-radius: 5px;
-  grid-column: 1/2;
-  grid-row: 2/4;
-}
-
-#container .avion img {
   height: 100%;
   width: 100%;
 }

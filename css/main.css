@@ -81,8 +81,8 @@ h2 {
 }
 
 #container .a {
-  grid-column: 5/6;
-  grid-row: 3/4;
+  grid-column: 3/4;
+  grid-row: 5/6;
   height: 100%;
   width: 100%;
 }
@@ -207,6 +207,18 @@ h2 {
 }
 
 #container .maleta4 img {
+  height: 100%;
+  width: 100%;
+}
+
+#container .avion {
+  padding: 9px;
+  border-radius: 5px;
+  grid-column: 5/2;
+  grid-row: 2/6;
+}
+
+#container .avion img {
   height: 100%;
   width: 100%;
 }

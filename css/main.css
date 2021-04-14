@@ -1,5 +1,5 @@
 body {
-  background-image: url(../img/abyom.jpg);
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
   background-size: cover;
   font-family: 'Ubuntu', sans-serif;
   color: white;
@@ -73,14 +73,14 @@ h2 {
   width: 100%;
 }
 
-#container .a {
+#container .av {
   padding: 9px;
   border-radius: 5px;
   grid-column: 5/6;
   grid-row: 3/4;
 }
 
-#container .a {
+#container .av img {
   grid-column: 3/4;
   grid-row: 5/6;
   height: 100%;
@@ -214,8 +214,8 @@ h2 {
 #container .avion {
   padding: 9px;
   border-radius: 5px;
-  grid-column: 5/2;
-  grid-row: 2/6;
+  grid-column: 1/2;
+  grid-row: 2/4;
 }
 
 #container .avion img {

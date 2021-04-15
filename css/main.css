@@ -1,4 +1,4 @@
-body{
+body {
   background-color: #a8a8a8;
   margin: 0;
   overflow-x: hidden;
@@ -20,32 +20,64 @@ body{
 }
 
 @keyframes bg-animation {
-    0% { transform: translate(0,0) }
-    10% { transform: translate(-5%,-5%) }
-    20% { transform: translate(-10%,5%) }
-    30% { transform: translate(5%,-10%) }
-    40% { transform: translate(-5%,15%) }
-    50% { transform: translate(-10%,5%) }
-    60% { transform: translate(15%,0) }
-    70% { transform: translate(0,10%) }
-    80% { transform: translate(-15%,0) }
-    90% { transform: translate(10%,5%) }
-    100% { transform: translate(5%,0) }
+  0% {
+    transform: translate(0, 0)
+  }
+
+  10% {
+    transform: translate(-5%, -5%)
+  }
+
+  20% {
+    transform: translate(-10%, 5%)
+  }
+
+  30% {
+    transform: translate(5%, -10%)
+  }
+
+  40% {
+    transform: translate(-5%, 15%)
+  }
+
+  50% {
+    transform: translate(-10%, 5%)
+  }
+
+  60% {
+    transform: translate(15%, 0)
+  }
+
+  70% {
+    transform: translate(0, 10%)
+  }
+
+  80% {
+    transform: translate(-15%, 0)
+  }
+
+  90% {
+    transform: translate(10%, 5%)
+  }
+
+  100% {
+    transform: translate(5%, 0)
+  }
 }
 
-h1{
+h1 {
   font-size: 20px;
   color: white;
   text-shadow: 2px 2px 4px #000000;
 }
 
-p{
+p {
   font-family: arial;
   font-size: 25px;
   color: #FFFFFF;
 }
 
-h2{
+h2 {
   color: white;
   font-size: 20px;
 }
@@ -100,14 +132,14 @@ h2{
   width: 100%;
 }
 
-#container .av{
+#container .av {
   padding: 9px;
   border-radius: 5px;
   grid-column: 3/4;
   grid-row: 5/6;
 }
 
-#container .av img{
+#container .av img {
   grid-column: 3/4;
   grid-row: 5/6;
   height: 100%;

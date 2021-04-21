@@ -23,11 +23,11 @@ body {
   transition: 1.1;
 }
 
-.contenedor:hover .imagen {-webkit-transform:scale(1.3);transform:scale(1.3);}
-.contenedor {overflow:hidden;}
+.foto:hover img {-webkit-transform:scale(1.3);transform:scale(1.3);}
+.foto {overflow:hidden;}
 1
 2
-.contenedor:hover .imagen {-webkit-transform:scale(1.3);transform:scale(1.3);}
+.contenedor:hover img {-webkit-transform:scale(1.3);transform:scale(1.3);}
 .contenedor {overflow:hidden;}
 
 @keyframes bg-animation {

@@ -3,9 +3,34 @@ body {
   margin: 0;
   overflow-x: hidden;
 }
+
+.dropdown-content {
+display: none;
+text-align: left;
+position: absolute;
+background-color: #d9dbdb;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+
+}
+
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content a:hover {background-color: #9b9b9b }
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
 .slider {
 	width: 50%;
-	margin: auto;
+	margin: inherit;
 	overflow: hidden;
   position: right;
 }
@@ -120,7 +145,7 @@ h1 {
 
 p {
   font-family: arial;
-  font-size: 25px;
+  font-size: 40px;
   color: #FFFFFF;
 }
 
@@ -128,8 +153,14 @@ h2 {
   color: white;
   font-size: 20px;
 }
-
-
+h3{
+font-size: 40px;
+}
+p {
+ font-size: 16px;
+ align-content: right;
+ color: black;
+}
 
 #container {
   display: grid;
@@ -278,4 +309,11 @@ h2 {
   border-radius: 5px;
   grid-column: 1/6;
   grid-row: 3/5;
+}
+#container .intro{
+  padding: 9px;
+  border-radius: 5px;
+  grid-column: 4/6;
+  grid-row: 2/5;
+  position: center;
 }

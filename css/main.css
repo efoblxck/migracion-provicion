@@ -4,9 +4,10 @@ body {
   overflow-x: hidden;
 }
 .slider {
-	width: 95%;
+	width: 50%;
 	margin: auto;
 	overflow: hidden;
+  position: right;
 }
 
 .slider ul {

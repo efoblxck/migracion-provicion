@@ -93,15 +93,7 @@ h2 {
   font-size: 20px;
 }
 
-#header {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  padding: 10px 10px;
-  background-color: #111111;
-  font-size: 20px;
-  color: #FFFFFF;
-}
+
 
 #container {
   display: grid;
@@ -109,6 +101,18 @@ h2 {
   grid-template-rows: calc(15vh - 10px) calc(10vh - 10px) calc(20vh - 10px) calc(35vh - 10px) calc(15vh - 10px);
   grid-column-gap: 10px;
   grid-row-gap: 10px;
+}
+
+#container .header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px 10px;
+  background-color: #111111;
+  font-size: 20px;
+  color: #FFFFFF;
+  grid-column: 1/2;
+  grid-row: 1/6;
 }
 
 #container .logo {
@@ -217,7 +221,7 @@ h2 {
 #container .ultimo {
   padding: 9px;
   border-radius: 5px;
-  grid-column: 1/5;
+  grid-column: 3/4;
   grid-row: 6/6;
 }
 
@@ -231,4 +235,11 @@ h2 {
 #container .info img {
   height: 100%;
   width: 100%;
+}
+
+#container .lobby{
+  padding: 9px;
+  border-radius: 5px;
+  grid-column: 1/6;
+  grid-row: 3/5;
 }

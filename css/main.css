@@ -206,7 +206,7 @@ p {
  align-content: right;
  color: black;
 }
-
+@media screen and (max-width: 12000px){
 #container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -214,7 +214,7 @@ p {
   grid-column-gap: 10px;
   grid-row-gap: 10px;
 }
-
+}
 #container .header {
   position: fixed;
   top: 0;

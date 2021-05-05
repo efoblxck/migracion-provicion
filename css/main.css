@@ -330,16 +330,6 @@ p {
   grid-row: 4/5;
 }
 
-#container .ultimo {
-  padding: 9px;
-  border-radius: 5px;
-  grid-column: 3/5;
-  grid-row: 6/6;
-}
-
-#container .ultimo img {
-vertical-align: middle
-}
 
 #container .info {
   padding: 9px;
@@ -375,4 +365,164 @@ vertical-align: middle
   margin: 60px;
   box-sizing: border-box;
 
+}
+
+#container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: calc(15vh - 9px) calc(10vh - 9px) calc(20vh - 9px) calc(30vh - 9px) calc(15vh - 9px);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+#container2 .header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px 10px;
+  background-color: #111111;
+  font-size: 20px;
+  color: #FFFFFF;
+  grid-column: 1/2;
+  grid-row: 1/6;
+}
+
+#container2 .logo {
+  padding: 30px;
+  border-radius: 5px;
+  border: 2px solid black;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+#container2 .bigfoto {
+  padding: 9px;
+  border-radius: 5px;
+  grid-column: 3/4;
+  grid-row: 4/5;
+}
+
+#container2 .bigfoto img {
+  height: 100%;
+  width: 100%;
+}
+
+#container2 .f {
+  padding: 9px;
+  border-radius: 5px;
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
+
+#container2 .f img {
+  height: 100%;
+  width: 100%;
+}
+
+#container2 .av {
+  padding: 9px;
+  border-radius: 5px;
+  grid-column: 3/4;
+  grid-row: 5/6;
+}
+
+#container2 .av img {
+  grid-column: 3/4;
+  grid-row: 5/6;
+  height: 100%;
+  width: 100%;
+}
+
+#container2 .titulo {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+
+#container2 .paginasss {
+  padding: 9px;
+  border-r<s</s>adius: 5px;
+  grid-column: 5/6;
+  grid-row: 5/6;
+}
+
+#container2 .copy {
+  padding: 30px;
+  border-radius: 5px;
+  border: 2px solid black;
+  grid-column: 3/4;
+  grid-row: 5/6;
+}
+
+#container2 .nav {
+  padding: 9px;
+  border-radius: 5px;
+  grid-column: 5/6;
+  grid-row: 5/6;
+}
+
+#container2 .basic {
+  padding: 30px;
+  border-radius: 5px;
+  border: 2px solid black;
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+
+#container2 .medio {
+  padding: 9px;
+  border-radius: 5px;
+  grid-column: 1/6;
+  grid-row: 2/3;
+}
+
+#container2 .tit {
+  padding: 9px;
+  border-radius: 5px;
+  border: 2px solid black;
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+
+#container2 .celda9 {
+  padding: 9px;
+  border-radius: 5px;
+  grid-column: 1/6;
+  grid-row: 4/5;
+}
+
+#container2 .ultimo img {
+vertical-align: middle
+}
+
+#container2 .info {
+  padding: 9px;
+  border-radius: 5px;
+  grid-column: 1/2;
+  grid-row: 5/6;
+}
+
+#container2 .info img {
+  height: 100%;
+  width: 100%;
+}
+
+#container2 .lobby{
+  padding: 9px;
+  border-radius: 5px;
+  grid-column: 1/6;
+  grid-row: 3/5;
+}
+#container2 .intro{
+  padding: 9px;
+  border-radius: 5px;
+  grid-column: 4/6;
+  grid-row: 2/5;
+  position: center;
+}
+
+#container2 .ultimo {
+  padding: 9px;
+  border-radius: 5px;
+  grid-column: 3/5;
+  grid-row: 6/6;
 }

@@ -218,12 +218,12 @@ p {
 #container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: calc(15vh - 9px) calc(10vh - 9px) calc(20vh - 9px) calc(30vh - 9px) calc(15vh - 9px);
+  grid-template-rows: calc(15vh - 9px) calc(10vh - 9px) calc(20vh - 9px) calc(30vh - 9px) calc(15vh - 9px) calc(15vh - 9px) calc(10vh - 9px) calc(20vh - 9px) calc(30vh - 9px) calc(15vh - 9px);
   grid-column-gap: 10px;
   grid-row-gap: 10px;
 }
 #container .header {
-  position: fixed;
+  position: absolute;
   top: 0;
   width: 100%;
   padding: 10px 10px;

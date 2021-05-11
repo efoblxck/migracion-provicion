@@ -207,6 +207,7 @@ p {
  color: black;
 }
 @media screen and (max-width: 12000px){
+  }
 #container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -214,7 +215,7 @@ p {
   grid-column-gap: 10px;
   grid-row-gap: 10px;
 }
-}
+
 #container .header {
   position: fixed;
   top: 0;
@@ -370,9 +371,10 @@ vertical-align: middle
   background: #e0a8a8;
   height: 450px;
   width: 590px;
-  padding: 20px;
+  padding: 10px;
   border: 10px solid #6e2f2f;
-  margin: 60px;
+  margin: 120px;
   box-sizing: border-box;
+  box-shadow: 0 5px 5px rgba(104, 104, 104, 0.8);
 
 }

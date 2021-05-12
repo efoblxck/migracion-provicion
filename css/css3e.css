@@ -218,12 +218,12 @@ p {
 #container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: calc(15vh - 9px) calc(10vh - 9px) calc(20vh - 9px) calc(30vh - 9px) calc(15vh - 9px);
+  grid-template-rows: calc(15vh - 9px) calc(10vh - 9px) calc(20vh - 9px) calc(30vh - 9px) calc(15vh - 9px) calc(15vh - 9px) calc(10vh - 9px) calc(20vh - 9px) calc(30vh - 9px) calc(15vh - 9px);
   grid-column-gap: 10px;
   grid-row-gap: 10px;
 }
 #container .header {
-  position: fixed;
+  position: absolute;
   top: 0;
   width: 100%;
   padding: 10px 10px;
@@ -258,11 +258,12 @@ p {
   padding: 9px;
   border-radius: 5px;
   grid-column: 3/5;
-  grid-row: 6/6;
+  grid-row: 10/11;
 }
 
 #container .ultimo img {
-vertical-align: middle
+vertical-align: middle;ç
+align-items: center;
 }
 
 #container .info {
@@ -344,6 +345,24 @@ vertical-align: middle
 }
 
 #container .uwu2 img.top:hover {
+  opacity: 0;
+}
+#container .uwu3 {
+  padding: 9px;
+  border-radius: 5px;
+  grid-column: 3/4;
+  grid-row: 6/9;
+  height: 290px;
+  width: 290px;
+  margin: 10px 20px;
+}
+
+#container .uwu3 img {
+  position: absolute;
+  transition: opacity 1s ease-in-out;
+}
+
+#container .uwu3 img.top:hover {
   opacity: 0;
 }
 .cajauwu{

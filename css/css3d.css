@@ -300,6 +300,15 @@ vertical-align: middle
   width: 290px;
   margin: 10px 20px;
 }
+#container .uwu {
+  padding: 9px;
+  border-radius: 5px;
+  grid-column: 1/2;
+  grid-row: 2/4;
+  height: 290px;
+  width: 290px;
+  margin: 10px 20px;
+}
 
 #container .uwu img {
   position: absolute;
@@ -313,7 +322,7 @@ vertical-align: middle
   padding: 9px;
   border-radius: 5px;
   grid-column: 3/4;
-  grid-row: 3/5;
+  grid-row: 2/5;
   height: 290px;
   width: 290px;
   margin: 10px 20px;
@@ -330,8 +339,8 @@ vertical-align: middle
 #container .uwu2 {
   padding: 9px;
   border-radius: 5px;
-  grid-column: 5/6;
-  grid-row: 3/5;
+  grid-column: 4/5;
+  grid-row: 2/5;
   height: 290px;
   width: 290px;
   margin: 10px 20px;
@@ -348,8 +357,8 @@ vertical-align: middle
 }
 .cajauwu{
   background: #e0a8a8;
-  height: 600px;
-  width: 540px;
+  height: 670px;
+  width: 840px;
   padding: 10px;
   border: 10px solid #6e2f2f;
   box-sizing: border-box;

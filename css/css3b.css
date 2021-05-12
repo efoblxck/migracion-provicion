@@ -258,7 +258,7 @@ p {
   padding: 9px;
   border-radius: 5px;
   grid-column: 3/5;
-  grid-row: 6/6;
+  grid-row: 10/11;
 }
 
 #container .ultimo img {
@@ -344,6 +344,63 @@ vertical-align: middle
 }
 
 #container .uwu2 img.top:hover {
+  opacity: 0;
+}
+#container .uwu3 {
+  padding: 9px;
+  border-radius: 5px;
+  grid-column: 1/2;
+  grid-row: 6/9;
+  height: 290px;
+  width: 290px;
+  margin: 10px 20px;
+  position: relative;
+}
+
+#container .uwu3 img {
+  position: absolute;
+  transition: opacity 1s ease-in-out;
+}
+
+#container .uwu3 img.top:hover {
+  opacity: 0;
+}
+#container .uwu4 {
+  padding: 9px;
+  border-radius: 5px;
+  grid-column: 3/4;
+  grid-row: 6/9;
+  height: 290px;
+  width: 290px;
+  margin: 10px 20px;
+  position: relative;
+}
+
+#container .uwu4 img {
+  position: absolute;
+  transition: opacity 1s ease-in-out;
+}
+
+#container .uwu4 img.top:hover {
+  opacity: 0;
+}
+#container .uwu5 {
+  padding: 9px;
+  border-radius: 5px;
+  grid-column: 5/6;
+  grid-row: 6/9;
+  height: 290px;
+  width: 290px;
+  margin: 10px 20px;
+  position: relative;
+}
+
+#container .uwu5 img {
+  position: absolute;
+  transition: opacity 1s ease-in-out;
+}
+
+#container .uwu5 img.top:hover {
   opacity: 0;
 }
 .cajauwu{

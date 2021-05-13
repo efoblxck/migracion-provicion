@@ -209,10 +209,10 @@ p {
 
 #container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
   width: 100%;
-  grid-template-rows: 25% 25% 25% 25%;
+  grid-template-rows: 20vh 20vh 22vh 25vh;
   grid-column-gap: 5px;
   grid-row-gap: 5px;
 }
@@ -345,14 +345,12 @@ vertical-align: middle
 #container .ultimo {
   padding: 9px;
   border-radius: 5px;
-  grid-column: 2/5;
-  grid-row: 6/6;
+  grid-column: 3/5;
+  grid-row: 5/5;
 }
 
 #container .ultimo img {
 vertical-align: center;
-height: 5%;
-width: 5%;
 }
 
 #container .info {
@@ -377,15 +375,13 @@ width: 5%;
 #container .intro{
   padding: 9px;
   border-radius: 5px;
-  grid-column: 3/4;
+  grid-column: 4/5;
   grid-row: 2/3;
-  position: center;
-  margin-left: 10px;
 }
 .cajaintro{
   background: #e0a8a8;
-  height: 350%;
-  width: 170%;
+  height: 335%;
+  width: 190%;
   padding: 10px;
   border: 10px solid #6e2f2f;
   box-sizing: border-box;

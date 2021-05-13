@@ -208,12 +208,11 @@ h4 {
   text-align: center;
   }
 p {
- font-size: 20px;
+ font-size: 3vw;
  align-content: right;
  color: black;
 }
-@media screen and (max-width: 12000px){
-}
+
 
 #container {
   display: grid;
@@ -262,7 +261,9 @@ p {
 }
 
 #container .ultimo img {
-vertical-align: middle
+vertical-align: middle;
+height: 100%;
+width: 30%;
 }
 
 #container .info {

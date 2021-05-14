@@ -208,12 +208,11 @@ h4 {
   text-align: center;
   }
 p {
- font-size: 20px;
+ font-size: 3vw;
  align-content: right;
  color: black;
 }
-@media screen and (max-width: 12000px){
-}
+
 
 #container {
   display: grid;
@@ -223,7 +222,7 @@ p {
   grid-row-gap: 10px;
 }
 #container .header {
-  position: fixed;
+  position: absolute;
   top: 0;
   width: 100%;
   padding: 10px 10px;
@@ -262,7 +261,8 @@ p {
 }
 
 #container .ultimo img {
-vertical-align: middle
+top: 29%;
+left: 100%;
 }
 
 #container .info {
@@ -296,14 +296,14 @@ vertical-align: middle
   border-radius: 5px;
   grid-column: 1/2;
   grid-row: 3/4;
-  height: 290px;
-  width: 290px;
-  margin: 10px 20px;
 }
 
 #container .uwu img {
   position: absolute;
   transition: opacity 1s ease-in-out;
+  width: 28%;
+  top: 29%;
+  left: 3%;
 }
 
 #container .uwu img.top:hover {
@@ -313,15 +313,15 @@ vertical-align: middle
   padding: 9px;
   border-radius: 5px;
   grid-column: 3/4;
-  grid-row: 3/5;
-  height: 290px;
-  width: 290px;
-  margin: 10px 20px;
+  grid-row: 3/4;
 }
 
 #container .uwu1 img {
   position: absolute;
   transition: opacity 1s ease-in-out;
+  width: 28%;
+  top: 29%;
+  left: 37%;
 }
 
 #container .uwu1 img.top:hover {
@@ -331,16 +331,16 @@ vertical-align: middle
   padding: 9px;
   border-radius: 5px;
   grid-column: 5/6;
-  grid-row: 3/5;
-  height: 290px;
-  width: 290px;
-  margin: 10px 20px;
-  position: relative;
+  grid-row: 3/4;
 }
 
 #container .uwu2 img {
+  margin: 0;
   position: absolute;
   transition: opacity 1s ease-in-out;
+  width: 28%;
+  top: 29%;
+  left: 70%;
 }
 
 #container .uwu2 img.top:hover {
@@ -348,8 +348,8 @@ vertical-align: middle
 }
 .cajauwu{
   background: #e0a8a8;
-  height: 600px;
-  width: 540px;
+  height: 351%;
+  width: 229%;
   padding: 10px;
   border: 10px solid #6e2f2f;
   box-sizing: border-box;
@@ -358,8 +358,8 @@ vertical-align: middle
 }
 .cajauwu1{
   background: #e0a8a8;
-  height: 415px;
-  width: 540px;
+  height: 350%;
+  width: 229%;
   padding: 10px;
   border: 10px solid #6e2f2f
   box-sizing: border-box;
@@ -368,8 +368,8 @@ vertical-align: middle
 }
 .cajauwu2{
   background: #e0a8a8;
-  height: 415px;
-  width: 540px;
+  height: 350%;
+  width: 229%;
   padding: 10px;
   border: 10px solid #6e2f2f;
   box-sizing: border-box;
